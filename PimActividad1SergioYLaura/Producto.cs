@@ -16,5 +16,10 @@ namespace PimActividad1SergioYLaura
             Nombre = nombre;
             Precio = precio;
         }
+        public void MostrarDatos()
+        {
+            Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("Precio: " + Precio);
+        }
     }
 }
