@@ -17,5 +17,10 @@ namespace PimActividad1SergioYLaura
             this.nombre = nombre;
             this.edad = edad;
         }
+        // Persona.cs (Paso 3)
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
+        }
     }
 }
