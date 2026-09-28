@@ -10,5 +10,12 @@ namespace PimActividad1SergioYLaura
     {
         private string nombre;
         private int edad;
+
+        // Persona.cs (Paso 2)
+        public Persona(string nombre, int edad)
+        {
+            this.nombre = nombre;
+            this.edad = edad;
+        }
     }
 }
