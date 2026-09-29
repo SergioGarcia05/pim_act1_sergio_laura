@@ -10,6 +10,8 @@ namespace PimActividad1SergioYLaura
     {
         static void Main(string[] args)
         {
+            Persona persona = new Persona("Laura", 21);
+            persona.EsMayorDeEdad();
         }
     }
 }
