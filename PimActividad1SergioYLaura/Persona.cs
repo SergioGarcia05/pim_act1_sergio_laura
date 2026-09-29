@@ -22,5 +22,16 @@ namespace PimActividad1SergioYLaura
         {
             Console.WriteLine($"Nombre: {nombre}, Edad: {edad}");
         }
+        public void EsMayorDeEdad()
+        {
+            if (edad >= 18)
+            {
+                Console.WriteLine("La persona es mayor de edad");
+            }
+            else
+            {
+                Console.WriteLine("La persona es menor de edad");
+            }
+        }
     }
 }
