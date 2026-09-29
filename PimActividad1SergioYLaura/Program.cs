@@ -10,6 +10,14 @@ namespace PimActividad1SergioYLaura
     {
         static void Main(string[] args)
         {
+            Persona p = new Persona("Sergio", 20);
+            p.MostrarDatos();
+
+            // Modificar atributos mediante setters/propiedades
+            p.Nombre = "Sergio Garcia";
+            p.Edad = 25;
+            Console.WriteLine("\nDatos tras la modificacion (Dev 1):");
+            p.MostrarDatos();
         }
     }
 }
