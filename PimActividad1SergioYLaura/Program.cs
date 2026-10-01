@@ -10,6 +10,10 @@ namespace PimActividad1SergioYLaura
     {
         static void Main(string[] args)
         {
+
+            Persona persona = new Persona("Laura", 21);
+            persona.EsMayorDeEdad();
+
             Persona p = new Persona("Sergio", 20);
             p.MostrarDatos();
 
@@ -18,6 +22,7 @@ namespace PimActividad1SergioYLaura
             p.Edad = 25;
             Console.WriteLine("\nDatos tras la modificacion (Dev 1):");
             p.MostrarDatos();
+
         }
     }
 }
