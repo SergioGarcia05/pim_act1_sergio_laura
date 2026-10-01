@@ -17,6 +17,18 @@ namespace PimActividad1SergioYLaura
             this.nombre = nombre;
             this.edad = edad;
         }
+        // Subtarea 1
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public int Edad
+        {
+            get { return edad; }
+            set { edad = value; }
+        }
         // Persona.cs (Paso 3)
         public void MostrarDatos()
         {
